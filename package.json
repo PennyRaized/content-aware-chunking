@@ -1,0 +1,36 @@
+{
+  "name": "content-aware-chunking",
+  "version": "1.0.0",
+  "description": "Intelligent document chunking for RAG systems with automatic fallback",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "chunking",
+    "rag",
+    "document-processing",
+    "nlp",
+    "text-processing",
+    "embeddings",
+    "ai"
+  ],
+  "author": "Penny Schiffer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/content-aware-chunking.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
